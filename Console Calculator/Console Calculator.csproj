@@ -43,9 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interface-cal.cs" />
+    <Compile Include="Core\AddOperation.cs" />
+    <Compile Include="Core\DecimalValidator.cs" />
+    <Compile Include="Core\ICalculatorOperation.cs" />
+    <Compile Include="Core\DivideOperation.cs" />
+    <Compile Include="Core\MultiplyOperation.cs" />
+    <Compile Include="Core\OperationResult.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Core\SubtractOperation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
