@@ -67,7 +67,7 @@ namespace Console_Calculator
                         calculatorOperation = new DivideOperation();
                         break;
                     default:
-                        Console.WriteLine("Ongeldige keuze. Kies een geldige operatie.");
+                        Console.WriteLine("Ongeldige keuze. Kies een geldige operatie. ");
                         return;
                 }
 
